@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="author" content="Dennis C">
+    <meta name="description"
+        content="Interior Consultant page demo project for 'Responsive Web Developer' path ath devChallenges.io">
+    <meta name="keywords" content="web development, html, css, Responsive Design, Figma, 404 Page, demo">
+    <title>Interior Consultant</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Lora:wght@500;700&family=Montserrat:wght@400;500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="page-wrapper">
+    <!-- Header -->
+    <header class="navigation">
+        <a class='logo' href="#">THIS INTERIOR</a>
+        <button class="burger-wrapper" onclick="toggleNavigationOnMobile()">
+            <img src="assets/menu_white_24dp.svg" alt="menu burger icon">
+        </button>
+        <div id="navigation--links">
+            <button class="burger-wrapper" onclick="toggleNavigationOnMobile()">
+                <img src="assets/close_white_24dp.svg" alt="menu burger icon">
+            </button>
+            <nav>
+                <a href="#" class="active">Home</a>
+                <a href="#">Collection</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <header class="title">
+        <h1>Modern Interior</h1>
+        <h2>
+            A full-Service residential & commercial interior design and staging company offering professional
+            organizing & eco-services.
+        </h2>
+
+        <a href="#">
+            <span>Read more</span>
+            <img src="assets/arrow_right_alt_white_24dp.svg" alt="arrow right icon">
+        </a>
+    </header>
+
+    <figure>
+        <img src="assets/photo1.png" alt="Modern Living Room" width="'1474" height="1110" />
+        <!-- Card -->
+        <figcaption class="card">
+            <div class="top">
+                <img src="assets/photo2.png" alt="Aliza Webber" width="200" height="200" />
+                <div>
+                    <h4>Aliza Webber</h4>
+                    <h5>Interior Designer</h5>
+                </div>
+            </div>
+            <div class="bottom">
+                <h3>Designed in 2020 by Aliza Webber</h3>
+            </div>
+        </figcaption>
+    </figure>
+
+    <!-- Footer -->
+    <footer>
+        <p> created by <b><u>Dennis</u></b> -devChallenges.io</p>
+    </footer>
+</body>
+
+<!-- javascript -->
+<script src="nav.js"></script>
+
+</html>
